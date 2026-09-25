@@ -14,7 +14,8 @@ Static clone of gakchambers.com (Sid's law firm, Chandigarh — WordPress/Elemen
 
 - Removed Sahil Chhabra's team card entirely (photo, name, title, email, LinkedIn icon).
 - Changed Rana Gurtej Singh's title from "Principal Associate" to "Counsel".
-- Replaced all "GAK Partners" brand text with "GAK Chambers" site-wide — left every `@gakpartners.com` email address untouched (explicitly asked to keep emails as-is).
+- Replaced all "GAK Partners" brand text with "GAK Chambers" site-wide.
+- 2026-09-25: emails updated too — all 4 addresses (`nikhil@`, `rana@`, `contact@`, `careers@`) changed from `@gakpartners.com` to `@gakchambers.com` (reversing the earlier instruction to leave them as-is). Not verified whether these mailboxes are actually provisioned in the M365 tenant yet — MX for gakchambers.com points to Outlook, but that's domain-level, not per-mailbox.
 - Centered the (now 2-person) team row on desktop: scoped CSS added before `</head>` —
   `.elementor-element-2627f03 > .elementor-container { justify-content: center }` inside `@media (min-width: 1025px)`.
 
